@@ -1,0 +1,59 @@
+body {
+    font-family: 'Potta One', system-ui;
+    background-image: linear-gradient(to bottom right, #2f98ed, rgb(63, 227, 123), #c2e42a );
+}
+
+#Score {
+    font-size: 30px;
+    margin-left: 200px;
+    color: beige;
+}
+
+#Timer {
+    font-size: 30px;
+    float: right;
+    margin-right: 200px;
+    color: aliceblue;
+}
+
+#sketch_drawn {
+    color: red;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+#confidence {
+    font-size: 25px;
+    color: yellow;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#Your_sketch {
+    font-size: 25px;
+    color: aquamarine;
+}
+
+.btn-info {
+    float: right;
+    margin-right: 50px;
+}
+
+h1 {
+    letter-spacing: 10px;
+    margin-left: 190px;
+    color: whitesmoke;
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border: 6px solid royalblue;
+    border-radius: 25px;
+}
+
+@keyframes example {
+    from {box-shadow: 10px 10px 58px rgb(71, 181, 250)}
+    to {box-shadow: 10px 10px 68px rgb(173, 135, 235);}
+}
